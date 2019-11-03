@@ -199,7 +199,7 @@ Duration: 20 minutes
 
 1. Select and open the `azure-pipelines.yml` file.
 
-2. Select **Edit** and update the following variables: `resourcegroup`, and `workspace`. If you are using your own Azure subscription, please provide names to use. If an environment is provided to you be sure to replace XXXXX in the values below with your unique identifier.
+2. Select **Edit** and update the following variables: `resourcegroup`, `workspace`, and 'experiment'. If you are using your own Azure subscription, please provide names to use. If an environment is provided to you be sure to replace XXXXX in the values below with your unique identifier.
 
     ![Edit build YAML file and provide your resource group and workspace information.](media/05.png 'Edit Build YAML file')
 
@@ -229,7 +229,10 @@ Duration: 20 minutes
    
     ![Provide connection name, and Azure Resource Group and then select Ok. The resource group should match the value you provided in the YAML file.](media/09.png 'Add an Azure Resource Manager service connection dialog')
 
-
+   d. Click the link 'use the full version of the service connection dialog.' to show additional fields required.
+   
+   e. Populate the fields from the lab information provided using *Application/Client Id* and *Application Secret Key* for the existing service pricipal information.
+   
 ## Exercise 4: Setup and Run the Build Pipeline
 
 Duration: 25 minutes
