@@ -563,7 +563,13 @@ In this exercise, you learn how to monitor the performance of a deployed model.
 
 5. In the left pane, make sure the **Tables** tab is selected.
 
-6. Provide the following query `requests where timestamp > ago(24h) limit 10` and then select **Run**.
+6. Provide the following query 
+ 
+   `requests 
+     | where timestamp > ago(24h)
+     | limit 10` 
+ 
+ Then select **Run**.
 
     ![On the Application Insights Logs screen, a New Query tab is shown with the Tables tab selected. The icon next to the requests table is selected.](media/model-telemetry-03.png 'Create Requests Query')
 
