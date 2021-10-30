@@ -1,7 +1,3 @@
-## Microsoft Cloud Workshops - Retirement Survey  
-
-As we look to streamline content and improve training, we are considering retiring the Microsoft Cloud Workshop (MCW) program. Please take a moment to fill out the [Microsoft Cloud Workshop Survey](https://forms.office.com/r/834zwtaNtK) and give us your feedback.
-
 # MLOps
 
 Wide World Importers (WWI) delivers innovative solutions for manufacturers. They specialize in identifying and solving problems for manufacturers that can run the range from automation, to providing cutting edge approaches that generate new opportunities. WWI has decades specializing in data science and application development that until now were separate units. They would like to unlock the greater, long term value by combining the two units into one and follow one standardized process for operationalizing their innovations.
