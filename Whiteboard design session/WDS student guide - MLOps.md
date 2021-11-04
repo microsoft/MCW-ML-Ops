@@ -47,7 +47,7 @@ In this workshop, you will learn how Wide World Importers (WWI) can leverage Dee
 
 At the end of this workshop, you will be better able to design and implement end-to-end solutions that fully operationalize deep learning models, inclusive of all application components that depend on the model.
 
-## Step 1: Review the customer case study
+## Step 1: Review the customer case study 
 
 **Outcome**
 
@@ -55,13 +55,13 @@ Analyze your customer's needs.
 
 Timeframe: 15 minutes
 
-Directions:  With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips.
+Directions: With all participants in the session, the facilitator/SME presents an overview of the customer case study along with technical tips.
 
-1. Meet your table participants and trainer.
+1. Meet your team members and trainer.
 
-2. Read all of the directions for steps 1-3 in the student guide.
+2. Read all directions for steps 1-3 in the student guide.
 
-3. As a table team, review the following customer case study.
+3. As a team, review the following customer case study.
 
 ### Customer situation
 
@@ -103,15 +103,15 @@ Timeframe: 60 minutes
 
 **Business needs**
 
-Directions: With all the participants at your table, answer the following questions and list the answers on a flip chart:
+Directions: With your team, answer the following questions and be prepared to present your solution to others:
 
-1. Who should you present this solution to? Who is your target customer audience? Who are the decision makers?
+1. Who will you present this solution to? Who is your target customer audience? Who are the decision makers?
 
 2. What customer business needs do you need to address with your solution?
 
 **Design**
 
-Directions: With all participants at your table, respond to the following questions on a flip chart:
+Directions: With your team, respond to the following questions:
 
 *High-level architecture*
 
@@ -157,7 +157,7 @@ Directions: With all participants at your table, respond to the following questi
 
 **Prepare**
 
-Directions: With all participants at your table:
+Directions: As a team:
 
 1. Identify any customer needs that are not addressed with the proposed solution.
 
@@ -179,9 +179,9 @@ Timeframe: 30 minutes
 
 Directions:
 
-1. Pair with another table.
+1. Pair with another team.
 
-2. One table is the Microsoft team, and the other table is the customer.
+2. One group is the Microsoft team, the other is the customer.
 
 3. The Microsoft team presents their proposed solution to the customer.
 
@@ -191,13 +191,13 @@ Directions:
 
 6. The customer team gives feedback to the Microsoft team.
 
-7. Tables switch roles and repeat Steps 2-6.
+7. Switch roles and repeat Steps 2-6.
 
-## Wrap-up
+##  Wrap-up 
 
 Timeframe: 15 minutes
 
-Directions: Tables reconvene with the larger group to hear the facilitator/SME share the preferred solution for the case study.
+Directions: Reconvene with the larger group to hear the facilitator/SME share the preferred solution for the case study.
 
 |    |            |
 |----------|:-------------:|
