@@ -240,6 +240,8 @@ Duration: 45 minutes
 
     ![In the Jobs screen, the Job that was selected in the previous step is expanded displaying multiple steps. To the right a summary of the run is displayed.](media/devops-build-pipeline-13.png 'Monitor Build Pipeline Details')
 
+    > **Note**: If the pipeline fails with the following error `ERROR: init() got an unexpected keyword argument 'async_persist'`. Please stop the build agent and downgrade the azure-cli by running the command `sudo apt-get install azure-cli=2.29.1-1~bionic` and then restarting the build agent.
+
 ### Task 3: Review Build Outputs
 
 1. Log in to [Azure Machine Learning studio](https://ml.azure.com) either directly or via the [Azure Portal](https://portal.azure.com). Make sure you select the Azure Machine Learning workspace that you created from the notebook earlier. Open your **Models** section and observe the versions of the registered model: **compliance-classifier**. The latest version is the one registered by the build pipeline you ran in the previous task.
