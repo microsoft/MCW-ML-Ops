@@ -4,7 +4,7 @@ Wide World Importers (WWI) delivers innovative solutions for manufacturers. They
 
 For this first proof of concept (PoC), WWI are looking to leverage Deep Learning technologies with Natural Language Processing (NLP) techniques to scan through vehicle component descriptions to find compliance issues with new regulations. The component descriptions are managed via a web application, and the web application takes the description and labels the component as compliant or non-compliant using the trained model. As part of this PoC, they want to ensure the overall process they create enables them to update both the underlying machine learning model and the web app in one, unified pipeline. They also want to be able to monitor the model's performance after it is deployed so they can be proactive with performance issues.
 
-September 2021
+March 2022
 
 ## Target audience
 
