@@ -1,6 +1,6 @@
 # MLOps
 
-Wide World Importers (WWI) delivers innovative solutions for manufacturers. They specialize in identifying and solving problems for manufacturers that can run the range from automation, to providing cutting edge approaches that generate new opportunities. WWI has decades specializing in data science and application development that until now were separate units. They would like to unlock the greater, long term value by combining the two units into one and follow one standardized process for operationalizing their innovations.
+Wide World Importers (WWI) delivers innovative solutions for manufacturers. They specialize in identifying and solving problems for manufacturers that can run the range from automation, to providing cutting edge approaches that generate new opportunities. WWI has decades specializing in data science and application development that until now were separate units. They would like to unlock the greater, long-term value by combining the two units into one and follow one standardized process for operationalizing their innovations.
 
 For this first proof of concept (PoC), WWI are looking to leverage Deep Learning technologies with Natural Language Processing (NLP) techniques to scan through vehicle component descriptions to find compliance issues with new regulations. The component descriptions are managed via a web application, and the web application takes the description and labels the component as compliant or non-compliant using the trained model. As part of this PoC, they want to ensure the overall process they create enables them to update both the underlying machine learning model and the web app in one, unified pipeline. They also want to be able to monitor the model's performance after it is deployed so they can be proactive with performance issues.
 
@@ -44,7 +44,7 @@ At the end of this hands-on lab, you will be better able to implement end-to-end
   
 ## Related references
 
-- [MCW](https://github.com/Microsoft/MCW)
+- [MCW](https://microsoftcloudworkshop.com/)
 
 ## Help & Support
 
