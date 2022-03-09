@@ -9,7 +9,7 @@ Before the hands-on lab setup guide
 </div>
 
 <div class="MCWHeader3">
-September 2021
+March 2022
 </div>
 
 Information in this document, including URL and other Internet Web site references, is subject to change without notice. Unless otherwise noted, the example companies, organizations, products, domain names, e-mail addresses, logos, people, places, and events depicted herein are fictitious, and no association with any real company, organization, product, domain name, e-mail address, logo, person, place or event is intended or should be inferred. Complying with all applicable copyright laws is the responsibility of the user. Without limiting the rights under copyright, no part of this document may be reproduced, stored in or introduced into a retrieval system, or transmitted in any form or by any means (electronic, mechanical, photocopying, recording, or otherwise), or for any purpose, without the express written permission of Microsoft Corporation.
@@ -18,7 +18,7 @@ Microsoft may have patents, patent applications, trademarks, copyrights, or othe
 
 The names of manufacturers, products, or URLs are provided for informational purposes only and Microsoft makes no representations and warranties, either expressed, implied, or statutory, regarding these manufacturers or the use of the products with any Microsoft technologies. The inclusion of a manufacturer or product does not imply endorsement of Microsoft of the manufacturer or product. Links may be provided to third party sites. Such sites are not under the control of Microsoft and Microsoft is not responsible for the contents of any linked site or any link contained in a linked site, or any changes or updates to such sites. Microsoft is not responsible for webcasting or any other form of transmission received from any linked site. Microsoft is providing these links to you only as a convenience, and the inclusion of any link does not imply endorsement of Microsoft of the site or the products contained therein.
 
-© 2021 Microsoft Corporation. All rights reserved.
+© 2022 Microsoft Corporation. All rights reserved.
 
 Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/intellectualproperty/Trademarks/Usage/General.aspx> are trademarks of the Microsoft group of companies. All other trademarks are property of their respective owners.
 
@@ -51,11 +51,11 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 
 2. Azure DevOps subscription. You will need a valid and active Azure DevOps account to complete the quickstarts. If you do not have one, you can sign up for a [free account](https://azure.microsoft.com/en-us/services/devops/).
 
-   > **Note**: You will need privileges to create projects on the DevOps account. Also, you need privileges to create Service Principal in the tenet. This translates to **Ensure that the user has 'Owner' or 'User Access Administrator' permissions on the Subscription**.
+   > **Note**: You will need privileges to create projects on the DevOps account. Also, you need privileges to create a Service Principal in the tenet. This translates to **Ensure that the user has 'Owner' or 'User Access Administrator' permissions on the Subscription**.
 
 3. Azure Machine Learning service workspace. An Azure Machine Learning workspace is a foundational resource in the cloud that you use to experiment, train, and deploy machine learning models. It ties your Azure subscription and resource group to an easily consumed object in the service.
 
-4. Azure Machine Learning compute instance. The compute instance is created during Exercise 1 from the hands-on lab. It used as your fully configured and managed development environment in the cloud to run the quickstart integrated notebooks uploaded in your workspace file share.
+4. Azure Machine Learning compute instance. The compute instance is created during Exercise 1 from the hands-on lab. It is used as your fully configured and managed development environment in the cloud to run the quickstart integrated notebooks uploaded in your workspace file share.
 
 ## Before the hands-on lab
 
@@ -85,7 +85,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 
 2. In the upper-left corner of Azure portal, select **+ Create a resource**.
 
-3. Use the search bar to find the **Machine Learning**.
+3. Use the search bar to find **Machine Learning**.
 
 4. Select **Machine Learning**.
 
@@ -142,7 +142,7 @@ Microsoft and the trademarks listed at <https://www.microsoft.com/en-us/legal/in
 
 ### Task 5: Setup Azure DevOps Agent
 
-In order to complete the lab, you need an DevOps agent to run your build and release pipeline jobs. You have two options for the types of agents you can use to run your pipeline jobs:
+In order to complete the lab, you need a DevOps agent to run your build and release pipeline jobs. You have two options for the types of agents you can use to run your pipeline jobs:
 
 1. Microsoft-hosted agents
 2. Self-hosted agents
@@ -197,7 +197,7 @@ For this option, we will look at steps to setup and configure a self-hosted agen
 
 9. From within Azure Portal, navigate to **Virtual machines** and then select **+ Create, + Virtual machine**.
 
-10. In the `Create a virtual machine` dialog, provide the following values and then select **Review + create**:
+10. In the `Create a virtual machine` dialog, provide the following values, and then select **Review + create**:
 
     - **Subscription**: Select the Azure subscription that you want to use.
     - **Resource group**: Use an existing resource group in your subscription or enter a name to create a new resource group.
@@ -213,7 +213,7 @@ For this option, we will look at steps to setup and configure a self-hosted agen
 
     ![The Create a virtual machine dialog is shown populated with the values above.](media/setup-vm1.png 'Create Virtual Machine')
 
-11. On the `Review + create` section, select **Create**. It will take few minutes for the VM to be deployed. Continue below once the VM deployed and ready.
+11. On the `Review + create` section, select **Create**. It will take a few minutes for the VM to be deployed. Continue below once the VM deployed and ready.
 
 12. From the `Overview` section of the virtual machine, copy the **Public IP address** and save it for later use.
 
@@ -230,9 +230,9 @@ For this option, we will look at steps to setup and configure a self-hosted agen
    - `curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash`
    - `az extension add --name azure-cli-ml`
    - `curl -O [Download the agent URL copied above]`
-     - For example, `curl -O https://vstsagentpackage.azureedge.net/agent/2.193.0/vsts-agent-linux-x64-2.193.0.tar.gz`
+     - For example, `curl -O https://vstsagentpackage.azureedge.net/agent/2.200.2/vsts-agent-linux-x64-2.200.2.tar.gz`
    - `mkdir myagent && cd myagent`
-   - `tar zxvf ../vsts-agent-linux-x64-2.193.0.tar.gz`
+   - `tar zxvf ../vsts-agent-linux-x64-2.200.2.tar.gz`
        - Ensure that the `tar.gz` file is the one downloaded above
    - `./config.sh`
        - Accept the Team Explorer Everywhere license agreement now? `Y`
@@ -245,7 +245,7 @@ For this option, we will look at steps to setup and configure a self-hosted agen
        - Enter work folder (press enter for _work) > press enter
    - `sudo ./svc.sh install`
    - `sudo ./svc.sh start`
-      > **Note**: to stop the agent run: `sudo ./svc.sh stop`. If required, you can find more details on setting up and configuring Self-hosted Linux agents [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops).
+      > **Note**: To stop the agent run: `sudo ./svc.sh stop`. If required, you can find more details on setting up and configuring Self-hosted Linux agents [here](https://docs.microsoft.com/en-us/azure/devops/pipelines/agents/v2-linux?view=azure-devops).
 
 15. From within Azure DevOps, navigate to **Organization Settings, Agent Pools, MCW Agent Pool** and then select the **Agents** tab. Confirm that the `mlops-agent` is `online`.
 
