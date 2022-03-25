@@ -1,3 +1,8 @@
+# Retirement notice
+This workshop will be retired effective June 30, 2022. At that time the repository will be archived, and the materials will not be maintained.
+
+For questions or concerns regarding the MCW library, email us at [AskMCW](mailto:AskMCW@microsoft.com). Please remember to include the title of the workshop in your email.
+
 # MLOps
 
 Wide World Importers (WWI) delivers innovative solutions for manufacturers. They specialize in identifying and solving problems for manufacturers that can run the range from automation, to providing cutting edge approaches that generate new opportunities. WWI has decades specializing in data science and application development that until now were separate units. They would like to unlock the greater, long-term value by combining the two units into one and follow one standardized process for operationalizing their innovations.
